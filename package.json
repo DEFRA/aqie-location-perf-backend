@@ -1,7 +1,7 @@
 {
-  "name": "aqie-location-backend",
+  "name": "aqie-location-perf-backend",
   "version": "0.0.0",
-  "description": "aqie-location-backend",
+  "description": "aqie-location-perf-backend",
   "main": ".server/index.js",
   "type": "module",
   "engines": {

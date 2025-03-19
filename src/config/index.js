@@ -30,7 +30,7 @@ const config = convict({
   serviceName: {
     doc: 'Api Service Name',
     format: String,
-    default: 'aqie-location-backend'
+    default: 'aqie-location-perf-backend'
   },
   root: {
     doc: 'Project root',
@@ -101,7 +101,7 @@ const config = convict({
   mongoDatabase: {
     doc: 'database for mongodb',
     format: String,
-    default: 'aqie-location-backend',
+    default: 'aqie-location-perf-backend',
     env: 'MONGO_DATABASE'
   },
   httpProxy: {

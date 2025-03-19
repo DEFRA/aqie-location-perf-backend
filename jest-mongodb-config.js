@@ -5,7 +5,7 @@ export default {
     },
     autoStart: false,
     instance: {
-      dbName: 'aqie-location-backend'
+      dbName: 'aqie-location-perf-backend'
     }
   },
   mongoURLEnvName: 'MONGO_URI',

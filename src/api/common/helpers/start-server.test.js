@@ -68,7 +68,7 @@ describe('#startServer', () => {
       )
       expect(mockHapiLoggerInfo).toHaveBeenNthCalledWith(
         3,
-        'MongoDb connected to aqie-location-backend'
+        'MongoDb connected to aqie-location-perf-backend'
       )
       expect(mockHapiLoggerInfo).toHaveBeenNthCalledWith(
         4,

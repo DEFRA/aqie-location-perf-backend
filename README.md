@@ -1,4 +1,4 @@
-# aqie-location-perf-backend
+# aqie-location-backend
 
 Core delivery platform Node.js Backend Template.
 
@@ -35,7 +35,7 @@ easier to use the Node Version Manager [nvm](https://github.com/creationix/nvm)
 To use the correct version of Node.js for this application, via nvm:
 
 ```bash
-cd aqie-location-perf-backend
+cd aqie-location-backend
 nvm use
 ```
 
@@ -183,13 +183,13 @@ return await fetch(url, {
 Build:
 
 ```bash
-docker build --target development --no-cache --tag aqie-location-perf-backend:development .
+docker build --target development --no-cache --tag aqie-location-backend:development .
 ```
 
 Run:
 
 ```bash
-docker run -e PORT=3001 -p 3001:3001 aqie-location-perf-backend:development
+docker run -e PORT=3001 -p 3001:3001 aqie-location-backend:development
 ```
 
 ### Production image
@@ -197,13 +197,13 @@ docker run -e PORT=3001 -p 3001:3001 aqie-location-perf-backend:development
 Build:
 
 ```bash
-docker build --no-cache --tag aqie-location-perf-backend .
+docker build --no-cache --tag aqie-location-backend .
 ```
 
 Run:
 
 ```bash
-docker run -e PORT=3001 -p 3001:3001 aqie-location-perf-backend
+docker run -e PORT=3001 -p 3001:3001 aqie-location-backend
 ```
 
 ### Docker Compose

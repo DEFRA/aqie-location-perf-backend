@@ -7,6 +7,7 @@ async function fetchData(locationType, userLocation) {
     method: 'get',
     headers: { 'Content-Type': 'text/json', preserveWhitespace: true }
   }
+  // Createlog
   const logger = createLogger()
   if (locationType === 'uk-location') {
     const filters = [
